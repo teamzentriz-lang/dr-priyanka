@@ -1,6 +1,6 @@
 
 import React from "react";
-import Content from "./Content";
+import Banner from "./Banner";
 
 // SEO METADATA – Normal Delivery Specialist in Katghar, Moradabad
 export const metadata = {
@@ -84,7 +84,7 @@ export const metadata = {
 const Page = () => {
   return (
     <div>
-      <Content />
+      <Banner />
     </div>
   );
 };
